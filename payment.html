@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT PAGE</title>
+    <link rel="stylesheet" href="/Stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Invoice heading in top -->
+        <div class="invoice">
+            <h1>Pay Invoice</h1>
+            <hr>
+        </div>
+
+
+        <!-- payment heading -->
+
+        <p id="qw">Payment Amount</p>
+
+        <p id="qq">$500.00 <button>Edit</button> </p>
+
+
+        <form action="/Portfolio/form" method="get">
+            <p>
+                Name on card
+                <br>
+                <textarea name="name" id="name" cols="30" rows="1"></textarea>
+            </p>
+
+            <p>
+                Card Number
+                <br>
+                <input type="number" name="number" id="number">
+
+            </p>
+
+            <p>
+                Expiry date
+                <br>
+                <input type="date" name="date" id="date">
+            </p>
+
+            <p>Security Code
+                <br>
+                <input type="number" name="cnumber" id="cnumber">
+            </p>
+
+            <p>Zip/Postal Code
+                <br>
+                <input type="number" name="zcode" id="zcode">
+            </p>
+
+            <input type="submit" name="sub" id="sub" value="Pay Now">
+
+
+
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

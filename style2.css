@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Back.jpg);
+    /* background-position: center center; */
+    background-repeat: none;
+    background-size: cover;
+}
+
+.nav a {
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+
+}
+
+.nav a:hover {
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    color: orange;
+    text-decoration-line: underline;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#name {
+    float: right;
+    display: inline-block;
+    margin-top: -5px;
+    font-family: 'Pacifico', cursive;
+    margin-right: 100px;
+    color: orange;
+    cursor: pointer;
+
+    /* margin-top: 5px; */
+}
+
+.main {
+    color: white;
+
+}
+
+#saahil {
+    font-size: 80px;
+    float: right;
+    position: absolute;
+    top: 21%;
+    left: 31%;
+    color: orange;
+    font-family: 'Pacifico', cursive;
+    /* text-decoration-line: underline; */
+
+}
+
+#quote{
+    font-size: 29px;
+
+    float: right;
+    position: absolute;
+    top: 34%;
+    left: 31%;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+

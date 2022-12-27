@@ -1,0 +1,74 @@
+body {
+    margin: 15px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    /* background-color: red; */
+
+}
+
+.invoice {
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(77, 103, 128, 0.407);
+    color: black;
+    
+
+
+}
+
+#qw {
+    margin-left: 200px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#qq {
+    /* margin-left: 200px; */
+    text-align: center;
+    /* top: 200px; */
+    display: inline-block;
+    float: right;
+    margin-right: 300px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+
+}
+
+form{
+     margin-left: 170px;
+     padding: 30px;
+     
+}
+
+input[type="number"],
+input[type="date"],
+select,
+textarea{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 508px;
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    width: 508px;
+    background-color: rgb(98, 105, 105);
+    border: none;
+    padding: 10px;
+}
